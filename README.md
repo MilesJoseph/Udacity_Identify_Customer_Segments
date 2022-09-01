@@ -1,57 +1,22 @@
-Identify_Customer_Segments
-==============================
+## Project Description
 
-project for udacity
+This project is part of the udacity ML nanodegree program. It is part of the unstructured section of the course. 
 
-Project Organization
-------------
+The data and design for this project were provided by Arvato Financial Services. You will apply unsupervised learning techniques on demographic and spending data for a sample of German households. You will preprocess the data, apply dimensionality reduction techniques, and implement clustering algorithms to segment customers with the goal of optimizing customer outreach for a mail order company.
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+## Evaluation
 
+Use the instructions in the project lesson to complete all steps in the project. Once you're done, review your work against the project rubric. Check that all of your work and its documentation meets specifications on all rubric points – if you see room for improvement in any category for which you do not meet specifications, go back and make some revisions. Remember that your project will be evaluated by a Udacity reviewer, and it must meet specifications on all rubric points in order for the submission to pass.
 
---------
+## Submission
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+Once you are ready to submit your project, collect the following files in a .zip archive:
+
+A copy of the Identify_Customer_Segments.ipynb notebook with completed code cells and filled out Discussion sections. If you worked on the project from the workspace in the lesson, you can download a copy of the notebook by going to the workspace and navigating to the File -> Download as -> Notebook (.ipynb) option.
+An HTML export of the above project notebook. This can be obtained by navigating to File -> Download as -> HTML (.html) in the notebook editor.
+Ready to submit your project?
+If you've checked your project against the rubric and placed both the notebook and html export into a .zip file, you can click on the "Submit Project" button below and follow the instructions to submit your project. You'll get an e-mail once your reviewer has completed their feedback; this can take up to a week but in most cases will be much faster than this.
+
+## Details 
+
+This repo is structured with cookie cutter, you can find the main project under the notebooks section which details the exploration and model development. 
